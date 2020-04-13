@@ -3,11 +3,16 @@ sudo apt install nodejs
 
 sudo apt install npm
 
-sudo npm install npm@latest
+sudo npm install -g npm@latest
 
 sudo npm install -g create-react-app
 
 create-react-app finance-react-js
 
-sudo npm install react-table
+#sudo npm install react-table
+
+sudo npm install @material-ui/core
+sudo npm install chart.js
+sudo npm install react-chartjs-2
+
 
