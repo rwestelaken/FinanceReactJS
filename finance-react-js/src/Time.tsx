@@ -1,6 +1,5 @@
-import React, {Component} from 'react'
 
-class Time extends Component {
+class Time {
     render() {
         const whattime = new Date().toLocaleTimeString()
         

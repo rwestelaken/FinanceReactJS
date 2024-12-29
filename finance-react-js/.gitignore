@@ -1,0 +1,10 @@
+# Node modules
+node_modules/
+
+# Build directories
+dist/
+build/
+
+# VS Code directories and files
+.vscode/
+.history/

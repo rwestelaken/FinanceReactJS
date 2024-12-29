@@ -1,10 +1,12 @@
+# Windows
+Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
 
+
+#Linux
 sudo apt install nodejs
-
 sudo apt install npm
 
 sudo npm install -g npm@latest
-
 sudo npm install -g create-react-app
 
 create-react-app finance-react-js
@@ -15,4 +17,10 @@ sudo npm install @material-ui/core
 sudo npm install chart.js
 sudo npm install react-chartjs-2
 
+sudo snap install node --channel=15 --classic
+
+sudo npm update react
+sudo npm audit fix
+
+sudo npm install react-plotly.js plotly.js
 
